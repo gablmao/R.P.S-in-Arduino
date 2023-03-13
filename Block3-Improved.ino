@@ -4,7 +4,6 @@
 #define paperButton 8
 #define scissorsButton 7
 
-
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 int player1Score = 0;
@@ -12,7 +11,6 @@ int player1Final = 0;
 int player2Score = 0;
 int player2Final = 0;
 int state = 0;
-
 
 
 
@@ -65,8 +63,6 @@ void displayScores(void)
   lcd.setCursor(0,1);
   lcd.print(player2Score);
 }
-
-
 
 
 
